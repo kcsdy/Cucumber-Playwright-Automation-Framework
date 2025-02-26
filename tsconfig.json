@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",  
+      "moduleResolution": "Node",  
+      "target": "ES6",
+      "esModuleInterop": true, 
+      "strict": true,
+      "baseUrl": "./",
+      "paths": {
+        "*": ["./*"]  
+      }
+    }
+  }
+  
