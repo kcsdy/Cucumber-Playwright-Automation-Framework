@@ -7,7 +7,7 @@ let page: Page;
 setDefaultTimeout(60 * 1000);
 
 BeforeAll(async()=>{
-    browser = await chromium.launch({headless:false,args: ["--start-maximized"]});
+    browser = await chromium.launch({headless:true,args: ["--start-maximized"]});
 })
 
 Before(async()=>{
